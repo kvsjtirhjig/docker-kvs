@@ -9,6 +9,7 @@ pipeline {
   stages {
     stage('Pre Check') {
       steps {
+          echo "hello"
       }
     }
     stage('Build') {
